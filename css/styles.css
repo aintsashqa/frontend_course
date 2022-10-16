@@ -29,6 +29,12 @@
   color: #FFFFFF;
 }
 
+.button-primary-outline {
+  background-color: #FFFFFF;
+  color: #5555A8;
+  border: #5555A8 1px solid;
+}
+
 .container {
   padding: 0 70px;
 }
@@ -147,6 +153,17 @@ header>.header-search>.header-search-input::placeholder {
   line-height: 19px;
 }
 
+/* Profile */
+.profile {
+  margin: 14px 0px;
+}
+
+.profile>.profile-contact-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 /* Content styles */
 
 .content {
@@ -206,5 +223,50 @@ header>.header-search>.header-search-input::placeholder {
   padding: 9px 44px 10px 43px;
   font-size: 16px;
   font-weight: 600;
+  line-height: 19px;
+}
+
+.content>form>.input-item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.content>form>.input-item>label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9F9F9F;
+}
+
+.content>form>.input-item>input {
+  width: 553px;
+  border: 0;
+  border-bottom: #8F8F8FB2 solid 1px;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8F8F8FB2;
+}
+
+.content>form>.input-item>input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8F8F8FB2;
+}
+
+.content>form>.button-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.content>form>.button-group>.button {
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 19px;
 }
