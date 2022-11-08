@@ -39,6 +39,10 @@
   padding: 0 70px;
 }
 
+.hide {
+  display: none;
+}
+
 hr {
   color: #8F8F8F80;
   height: 1px;
