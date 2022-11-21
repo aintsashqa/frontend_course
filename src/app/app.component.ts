@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'frontent-course';
 
+  public currentPage: string | undefined;
+
   public contacts = [
     {
       "id": 1,
