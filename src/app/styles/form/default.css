@@ -1,0 +1,72 @@
+form>.input-item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+form>.input-item>label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9F9F9F;
+}
+
+form>.input-item>input {
+  width: 553px;
+  border: 0;
+  border-bottom: #8F8F8FB2 solid 1px;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8F8F8FB2;
+}
+
+form>.input-item>input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8F8F8FB2;
+}
+
+form>.button-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+form>.button-group>.button {
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+form>.form-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  background-color: #5555A8;
+  color: #FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+form>.form-header>.form-header-title {
+  padding: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+form>.form-header>.form-header-close-button {
+  padding: 24px;
+}
+
+form>.form-header>.form-header-close-button>img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

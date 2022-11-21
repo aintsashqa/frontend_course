@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("reset-style.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap");
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.container {
+  padding: 0 70px;
+}
+
+.primary-text {
+  color: #000070;
+}
+
+.secondary-text {
+  color: #8F8F8F;
+}
+
+.secondary-text-alpha {
+  color: #E5E5E582;
+}
+
+.button {
+  border: 0;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #5555A8;
+  color: #FFFFFF;
+}
+
+.button-primary-outline {
+  background-color: #FFFFFF;
+  color: #5555A8;
+  border: #5555A8 1px solid;
+}
+
+hr {
+  color: #8F8F8F80;
+  height: 1px;
+  margin: 0;
+}

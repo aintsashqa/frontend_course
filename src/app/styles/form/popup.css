@@ -1,0 +1,23 @@
+@import url("./default.css");
+
+.form-pop-up {
+  width: 617px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.form-pop-up .input-item {
+  padding: 8px 32px;
+}
+
+.form-pop-up .input-item>input {
+  margin-top: 8px;
+  padding: 16px 8px;
+  border: #8F8F8FB2 solid 1.5px;
+  border-radius: 4px;
+}
+
+.form-pop-up .button-group {
+  justify-content: end;
+  padding: 32px;
+}

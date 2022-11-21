@@ -1,0 +1,47 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.navigation>.navigation-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 9px;
+}
+
+.navigation>.navigation-tabs>.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px 17px;
+  text-decoration: none;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8F8F8F80;
+}
+
+.navigation>.navigation-tabs>.tab-active {
+  color: #000070;
+  border-bottom: #000070 solid 2px;
+}
+
+.navigation>.navigation-tabs>.tab>.tab-badge {
+  background-color: #E5E5E582;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.navigation>.button {
+  width: 234px;
+  height: 38px;
+  padding: 9px 44px 10px 43px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}

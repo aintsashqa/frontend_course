@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+  height: 58px;
+}
+
+header>.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+header>.header-title>.primary-text {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+}
+
+header>.header-title>.secondary-text {
+  margin-left: 17px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+}
+
+header>.header-search {
+  width: 82px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+header>.header-search>.header-search-input {
+  width: 54px;
+  color: #8F8F8F80;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0;
+  border: 0;
+}
+
+header>.header-search>.header-search-input::placeholder {
+  color: #8F8F8F80;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
