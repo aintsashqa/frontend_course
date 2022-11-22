@@ -1,62 +1,16 @@
 <table class="primary-text">
   <thead>
-    <th>Client Name</th>
-    <th>Client Name</th>
-    <th>Client Name</th>
-    <th>Client Name</th>
-    <th>Client Name</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Website</th>
   </thead>
   <tbody>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-    </tr>
-    <tr>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
-      <td>Client item</td>
+    <tr *ngFor="let contact of contacts">
+      <td>{{ contact.username }}</td>
+      <td>{{ contact.email }}</td>
+      <td>{{ contact.phone }}</td>
+      <td>{{ contact.website }}</td>
     </tr>
   </tbody>
 </table>
-
-<app-empty></app-empty>

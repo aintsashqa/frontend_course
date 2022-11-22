@@ -1,7 +1,12 @@
 <div class="container navigation">
   <div class="navigation-tabs">
-    <a class="tab tab-active" href="">All <div class="tab-badge">0</div></a>
-    <a class="tab" href="">Favorites <div class="tab-badge">0</div></a>
+    <a class="tab tab-active" href="#" (click)="handleOnLinkClick($event, 'CONTACTS_LIST')">
+      All <div class="tab-badge">{{ totalContacts }}</div>
+    </a>
+    <a class="tab" href="#" (click)="handleOnLinkClick($event, 'CONTACTS_FAVORITE_LIST')">
+      Favorites <div class="tab-badge">{{ favoriteContacts }}</div>
+    </a>
   </div>
-  <input class="button button-primary" type="button" value="+ Add new contact">
+  <input class="button button-primary" type="button" value="+ Add new contact"
+    (click)="handleOnLinkClick($event, 'ADD_CONTACT')">
 </div>

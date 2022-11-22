@@ -1,8 +1,10 @@
-<app-header></app-header>
+<app-header [currentCount]="contacts.length"></app-header>
 <hr>
-<app-navigation></app-navigation>
-<app-profile></app-profile>
+<app-navigation (onPageChanging)="currentPage = $event" [totalContacts]="contacts.length"></app-navigation>
 <hr>
 <div class="container content">
-  <app-home-page></app-home-page>
+  <app-home-page>
+    <app-add-contact *ngIf="currentPage === 'ADD_CONTACT'"></app-add-contact>
+    <app-contacts-table *ngIf="currentPage === 'CONTACTS_LIST'" [contacts]="contacts"></app-contacts-table>
+  </app-home-page>
 </div>
