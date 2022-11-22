@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  border-collapse: collapse;
+}
+
+table thead th {
+  text-align: left;
+  padding: 16px 24px;
+  font-weight: 700;
+}
+
+table tbody tr {
+  border-bottom: solid thin;
+  border-color: #8F8F8F80;
+}
+
+table tbody tr td {
+  text-align: left;
+  padding: 16px 24px;
+  font-weight: 400;
+}
+
+table tbody tr:first-child {
+  border-top: solid thin;
+  border-color: #8F8F8F80;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}

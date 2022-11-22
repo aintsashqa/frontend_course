@@ -1,0 +1,9 @@
+.profile {
+  margin: 14px 0px;
+}
+
+.profile>.profile-contact-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
